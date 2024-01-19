@@ -21,11 +21,12 @@ sudo apt-get install php php-mysql
 ```
 sudo apt-get install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
 ```
-Nếu xảy ra lỗi
-![image](https://hackmd.io/_uploads/Bye2CnDKp.png)
+Nếu xảy ra lỗi  
+![image](https://github.com/AcceleratorHTH/challenge5a_trungpq6/assets/86862725/ce40954d-06d3-40a8-8f96-3e2c36b9a2a6)
 
-Chọn abort để dừng quá trình cài đặt
-![image](https://hackmd.io/_uploads/SJyCAhDKT.png)
+Chọn abort để dừng quá trình cài đặt  
+![image](https://github.com/AcceleratorHTH/challenge5a_trungpq6/assets/86862725/a1905ab5-701a-4484-b591-5965fe5898d2)
+
 
 Tắt xác thực:
 ```

@@ -1,0 +1,416 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c6bc0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3f51b5;
+}
+
+.message {
+    color: red;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.main-nav li {
+    display: flex;
+    margin: 0 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #5c6bc0;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.logout-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout-form button {
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-form button:hover {
+    background-color: #5c6bc0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"], .form-group input[type="password"], .form-group input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.profile-form, .change-password-form {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form h2, .change-password-form h2 {
+    margin-top: 0;
+}
+
+.profile-form img {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.add-user-btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.add-user-btn:hover {
+    background-color: #5c6bc0;
+}
+
+
+.user-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed;
+}
+
+.user-list th, .user-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 600px) {
+    .user-list {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+.list-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+
+.user-list th {
+    background-color: #5c6bc0;
+    color: white;
+}
+
+.user-list a {
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+.user-list a:hover {
+    text-decoration: underline;
+}
+
+
+.user-info p {
+    margin: 10px 0;
+}
+
+.message-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+
+.message-form {
+    margin-top: 20px;
+}
+
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+    resize: none;
+}
+
+.message-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.message-table th, .message-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.message-table th {
+    background-color: #5c6bc0;
+    color: white;
+}
+
+.message-table a {
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+.message-table a:hover {
+    text-decoration: underline;
+}
+
+.message-table td {
+    word-wrap: break-word;
+    max-width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .message-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+.assignment-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+}
+
+.add-assignment-btn {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.add-assignment-btn:hover {
+    background-color: #5c6bc0;
+}
+
+.assignment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.assignment-table th, .assignment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.assignment-table th {
+    background-color: #5c6bc0;
+    color: white;
+}
+
+.assignment-table td a {
+    color: #5c6bc0;
+    text-decoration: none;
+}
+
+.assignment-table td a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .assignment-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+.submission-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.submission-form label {
+    margin-bottom: 10px;
+}
+
+.submission-form input[type="file"] {
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #5c6bc0;
+}
+
+.upload-assignment-form .form-group {
+    margin-bottom: 15px;
+}
+
+.upload-assignment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.upload-assignment-form input[type="text"], 
+.upload-assignment-form input[type="date"],
+.upload-assignment-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.upload-assignment-form button {
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-assignment-form button:hover {
+    background-color: #5c6bc0;
+}
+
+.edit-message-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 100px;
+    resize: vertical; 
+}
+
+.edit-message-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-message-form button:hover {
+    background-color: #5c6bc0;
+}

@@ -103,7 +103,7 @@ Thêm dòng sau vào cuối hoặc nếu đã có sẵn thì chỉ cần thêm d
 Bật rewrite và khởi động lại apache2
 ```
 sudo a2enmod rewrite
-sudo  systemctl restart apache2
+sudo systemctl restart apache2
 ```
 Ghi nội dung file .htaccess: `vi ./htaccess`
 ```

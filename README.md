@@ -90,7 +90,7 @@ DB_NAME='<Tên CSDL>'
 DB_USER='phpmyadmin'
 DB_PASS='<Mật khẩu>'
 
-PEPPER='<Tùy ý>'
+PEPPER='VCSPassportBlueTeam'
 ```
 #### Kích hoạt .htaccess: 
 `sudo vi /etc/apache2/sites-available/000-default.conf`
